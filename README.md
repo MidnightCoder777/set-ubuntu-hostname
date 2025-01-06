@@ -10,29 +10,34 @@ A simple bash script to change the hostname on an Ubuntu 22.04 server. This scri
 
 ## Installation
 
-Clone this repository to your local machine:
-
+1. **Clone this repository to your local machine:**
+   
 ```bash
 git clone https://github.com//ubuntu-hostname-changer.git
+```
 
-Usage
+2. Change to the project directory:
 
-Change to the directory using the following command:
-
+```bash
 cd ubuntu-hostname-changer
+```
 
-Make the script executable:
+3. Make the script executable:
 
+```bash
 chmod +x change_hostname.sh
-
+```
 Run the script:
 
+```bash
 ./change_hostname.sh
+```
 
-The script will prompt you to enter a new hostname for the system. After entering the new hostname, the script will update the hostname and the /etc/hosts file accordingly. You’ll have the option to reboot the system immediately or later to apply the changes fully.
+The script will prompt you to enter a new hostname for the system. After entering the new hostname, it will update the system’s hostname and the /etc/hosts file accordingly.
 
 Example
 
+```bash
 $ ./change_hostname.sh
 Enter the new hostname: my-ubuntu-server
 Hostname has been changed to:
@@ -46,9 +51,7 @@ Hostname has been changed to:
   Architecture: x86-64
 
 Would you like to reboot now? (y/n)
-
-License
+```
+## License
 
 MIT
-
-This markdown structure is cleaner and more consistent, with code blocks for commands and improved section headings. Let me know if you need further adjustments!
